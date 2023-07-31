@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li style="float:right"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        <div class="profile-container">
+
+            <img src="./img/tv-head.gif" alt="Loading.." class="rounded">
+            <h1> Hi,I'm <span id="myname">Rohin.</span></h1>
+            <h1><span id="aliases"></span></h1>
+
+        </div>
+        <!-- CDN: script:typed.js author:mattboldt -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var Typed = new Typed('#aliases',{
+                strings: ["&lt;Developer&gt;", "&lt;CS Student&gt;", "&lt;Tech enthusiast&gt;"],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            });
+        </script>
+    </div>
+
+    <h2 id="about-h2"><em>"about</em></h2>
+    <div id="about">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sint quaerat fugit dignissimos qui, quos, laborum nulla error laudantium eaque quas facere sunt accusamus hic maxime. Facilis tenetur voluptatem cum atque ipsam, ad animi expedita commodi. Non sapiente rerum quod consequuntur quasi, voluptatum ratione.</p>
+    </div>
+
+
+    <footer>
+        <div class="footer-content">
+            <p><span>website author: Rohin.K</span></p>
+            <p><span><a href="#home">profile:</a>[<a href="https://mocymo.tumblr.com" target="_blank">@mocymo</a>]'s SmilingMachine V6</span></p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

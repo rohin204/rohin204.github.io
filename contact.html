@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <section>
+        <h2 class="contact-h2">contact.</h2>
+        <div class="form-container">
+            <form name="contact" action="#" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+
+                <input type="hidden" name="contact" value="contact" />
+
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email" required>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+    </section>
+</body>
+</html>
